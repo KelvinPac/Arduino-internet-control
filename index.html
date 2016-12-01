@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="jquery-3.1.1.js"></script>
+        <style>
+.test{
+    text-align: center;
+    color: #2196f3;
+}
+        </style>
+    </head>
+    <body>
+        
+<div class="container-fluid" style="background-color:#2196F3;color:#fff;height:200px;">
+  <h1>Simple Led ON and OFF control</h1>
+  <h3>Using an arduino uno and Processing</h3>
+  <p>The form below generates a text file conteining either 0 or 1 as per your input then the text is passed over to processing. we use processing to write to the serial where the arduino is waiting</p>
+  <p><strong>Remember to use the sme port arduino is connected to in processing</strong></p>
+</div>
+<br>
+      
+        
+        
+        
+        
+<form action="program.php" method="post" class="test">
+<input type="radio" name="state" value="1"> ON<br>
+  <input type="radio" name="state" value="0" checked> OFF<br>
+<input type="submit" id ="submitButton" value="Submit">
+</form>
+
+
+</body>
+</html>
