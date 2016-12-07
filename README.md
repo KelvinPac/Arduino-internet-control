@@ -5,4 +5,4 @@ We use processing to read the value of the text file and add write them to the s
 Please test if your board can receive data with no problems before testing whole project.
 I faced some issues when trying to access the url in processing when using a proxy connection 
 
-www.homeautogroup.co.ke
+www.homeautogroup.co.ke/diy/arduino-internet-control/
